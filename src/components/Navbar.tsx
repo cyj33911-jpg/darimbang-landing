@@ -76,11 +76,11 @@ export default function Navbar() {
               창업 상담 신청
             </a>
             <a
-              href="tel:15XX-XXXX"
+              href="tel:010-4898-8678"
               className="flex items-center justify-center gap-2 text-white/60 py-4 mt-4"
             >
               <Phone className="w-4 h-4" />
-              <span>15XX-XXXX</span>
+              <span>010-4898-8678</span>
             </a>
           </div>
         </div>
