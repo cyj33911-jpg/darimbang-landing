@@ -143,7 +143,7 @@ export default function ContactForm() {
         {/* Contact Info - Below Form */}
         <div className="mt-8 text-center">
           <p className="text-white/50 text-sm mb-2">가맹문의</p>
-          <p className="font-gmarket text-2xl text-[#D4AF37] mb-1">15XX-XXXX</p>
+          <p className="font-gmarket text-2xl text-[#D4AF37] mb-1">010-4898-8678</p>
           <p className="text-white/40 text-sm">www.darimbang.co.kr</p>
         </div>
       </div>

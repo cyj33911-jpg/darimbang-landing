@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-6 text-sm">
           <div className="flex items-center gap-2 text-white/40">
             <Phone className="w-3.5 h-3.5 text-[#A6192E]" />
-            <span>15XX-XXXX</span>
+            <span>010-4898-8678</span>
           </div>
           <div className="flex items-center gap-2 text-white/40">
             <Mail className="w-3.5 h-3.5 text-[#A6192E]" />
