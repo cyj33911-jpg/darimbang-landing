@@ -33,14 +33,20 @@ export default function AutoGrillSystem() {
           <p className="text-white/60 text-sm">주방의 모든 문제를 해결하는 혁신</p>
         </div>
 
-        {/* YouTube Video - Shorts (9:16 vertical) */}
+        {/* YouTube Video - Shorts (9:16 vertical) with text cropped */}
         <div className="flex justify-center mb-8">
           <div className="relative w-full max-w-[280px] sm:max-w-[320px] aspect-[9/16] bg-[#1a1a1a] rounded-lg overflow-hidden">
             <iframe
               src="https://www.youtube.com/embed/oFBlsMFOylc?autoplay=1&mute=1&loop=1&playlist=oFBlsMFOylc&controls=1&modestbranding=1&playsinline=1&rel=0"
               title="화구형 통돌이 시스템"
-              className="absolute inset-0 w-full h-full"
-              style={{ border: 0 }}
+              className="absolute"
+              style={{
+                border: 0,
+                top: '-20%',
+                left: '-25%',
+                width: '150%',
+                height: '140%'
+              }}
               allow="autoplay; encrypted-media"
               allowFullScreen
             />
