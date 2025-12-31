@@ -18,7 +18,7 @@ export default function FranchiseBenefit() {
             <br />
             <span className="text-[#A6192E]">파격 지원 혜택</span>
           </h2>
-          <p className="text-[#666] text-sm">성공적인 시작을 위한 특별 지원</p>
+          <p className="text-[#666] text-base">성공적인 시작을 위한 특별 지원</p>
         </div>
 
         {/* Gold Badge - Mobile Centered */}
@@ -50,7 +50,7 @@ export default function FranchiseBenefit() {
                 </svg>
                 <p className="font-bold text-[#2D2926] text-sm sm:text-base">{benefit.title}</p>
               </div>
-              <p className="text-[#666] text-xs sm:text-sm">{benefit.desc}</p>
+              <p className="text-[#666] text-sm sm:text-base">{benefit.desc}</p>
             </div>
           ))}
         </div>

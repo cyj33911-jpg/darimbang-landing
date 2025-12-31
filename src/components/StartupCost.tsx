@@ -18,7 +18,7 @@ export default function StartupCost() {
             <br />
             합리적인 창업 비용
           </h2>
-          <p className="text-white/60 text-sm">선착순 30호점 한정 혜택</p>
+          <p className="text-white/60 text-base">선착순 30호점 한정 혜택</p>
         </div>
 
         {/* Cost Grid */}
@@ -33,14 +33,14 @@ export default function StartupCost() {
                   {cost.badge}
                 </span>
               )}
-              <p className="text-white/60 text-xs mb-2">{cost.label}</p>
+              <p className="text-white/60 text-sm mb-2">{cost.label}</p>
               <p className="font-gmarket text-xl text-white">{cost.value}</p>
             </div>
           ))}
         </div>
 
         {/* Message */}
-        <p className="text-center text-white/80 text-sm leading-relaxed">
+        <p className="text-center text-white/80 text-base leading-relaxed">
           점주님의 상황에 맞춰
           <br />
           <span className="text-[#A6192E] font-bold">투명하고 유연한 창업</span>이 가능합니다

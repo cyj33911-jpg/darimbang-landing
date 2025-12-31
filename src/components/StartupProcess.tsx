@@ -20,7 +20,7 @@ export default function StartupProcess() {
             <br />
             <span className="text-[#A6192E]">본사가 함께합니다</span>
           </h2>
-          <p className="text-[#666] text-sm">6단계 체계적 창업 프로세스</p>
+          <p className="text-[#666] text-base">6단계 체계적 창업 프로세스</p>
         </div>
 
         {/* Process Steps - Mobile Optimized Grid */}
@@ -54,7 +54,7 @@ export default function StartupProcess() {
 
               {/* Description */}
               <p
-                className={`text-xs leading-relaxed ${
+                className={`text-sm leading-relaxed ${
                   step.highlight ? "text-white/80" : "text-[#666]"
                 }`}
               >

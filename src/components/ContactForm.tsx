@@ -39,7 +39,7 @@ export default function ContactForm() {
             <br />
             파트너, 다림방
           </h2>
-          <p className="text-white/60 text-sm">지금 바로 상담 신청하세요</p>
+          <p className="text-white/60 text-base">지금 바로 상담 신청하세요</p>
         </div>
 
         {/* Contact Form Card */}
@@ -58,10 +58,10 @@ export default function ContactForm() {
                 </svg>
               </div>
               <p className="font-gmarket text-xl text-[#2D2926] mb-2">신청 완료</p>
-              <p className="text-[#666] text-sm mb-6">빠른 시간 내에 연락드리겠습니다.</p>
+              <p className="text-[#666] text-base mb-6">빠른 시간 내에 연락드리겠습니다.</p>
               <button
                 onClick={() => setIsSubmitted(false)}
-                className="text-[#A6192E] text-sm active:opacity-70"
+                className="text-[#A6192E] text-base active:opacity-70"
               >
                 추가 신청하기
               </button>
@@ -74,37 +74,37 @@ export default function ContactForm() {
 
               <div className="space-y-4 mb-6">
                 <div>
-                  <label className="block text-[#666] text-xs mb-1.5">이름 *</label>
+                  <label className="block text-[#666] text-sm mb-1.5">이름 *</label>
                   <input
                     type="text"
                     name="name"
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-[#E5E5E5] focus:outline-none focus:border-[#A6192E] bg-white text-[#2D2926] placeholder:text-[#CCC] rounded text-sm"
+                    className="w-full px-4 py-3 border border-[#E5E5E5] focus:outline-none focus:border-[#A6192E] bg-white text-[#2D2926] placeholder:text-[#CCC] rounded text-base"
                     placeholder="홍길동"
                   />
                 </div>
                 <div>
-                  <label className="block text-[#666] text-xs mb-1.5">연락처 *</label>
+                  <label className="block text-[#666] text-sm mb-1.5">연락처 *</label>
                   <input
                     type="tel"
                     name="phone"
                     value={formData.phone}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-[#E5E5E5] focus:outline-none focus:border-[#A6192E] bg-white text-[#2D2926] placeholder:text-[#CCC] rounded text-sm"
+                    className="w-full px-4 py-3 border border-[#E5E5E5] focus:outline-none focus:border-[#A6192E] bg-white text-[#2D2926] placeholder:text-[#CCC] rounded text-base"
                     placeholder="010-1234-5678"
                   />
                 </div>
                 <div>
-                  <label className="block text-[#666] text-xs mb-1.5">희망 지역 *</label>
+                  <label className="block text-[#666] text-sm mb-1.5">희망 지역 *</label>
                   <select
                     name="region"
                     value={formData.region}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-[#E5E5E5] focus:outline-none focus:border-[#A6192E] bg-white text-[#2D2926] rounded text-sm appearance-none cursor-pointer"
+                    className="w-full px-4 py-3 border border-[#E5E5E5] focus:outline-none focus:border-[#A6192E] bg-white text-[#2D2926] rounded text-base appearance-none cursor-pointer"
                   >
                     <option value="">선택해주세요</option>
                     <option value="서울">서울</option>
@@ -118,13 +118,13 @@ export default function ContactForm() {
                   </select>
                 </div>
                 <div>
-                  <label className="block text-[#666] text-xs mb-1.5">문의 사항</label>
+                  <label className="block text-[#666] text-sm mb-1.5">문의 사항</label>
                   <textarea
                     name="message"
                     value={formData.message}
                     onChange={handleChange}
                     rows={3}
-                    className="w-full px-4 py-3 border border-[#E5E5E5] focus:outline-none focus:border-[#A6192E] bg-white text-[#2D2926] placeholder:text-[#CCC] rounded text-sm resize-none"
+                    className="w-full px-4 py-3 border border-[#E5E5E5] focus:outline-none focus:border-[#A6192E] bg-white text-[#2D2926] placeholder:text-[#CCC] rounded text-base resize-none"
                     placeholder="궁금하신 점을 적어주세요"
                   />
                 </div>
@@ -142,9 +142,9 @@ export default function ContactForm() {
 
         {/* Contact Info - Below Form */}
         <div className="mt-8 text-center">
-          <p className="text-white/50 text-xs mb-2">가맹문의</p>
+          <p className="text-white/50 text-sm mb-2">가맹문의</p>
           <p className="font-gmarket text-2xl text-[#D4AF37] mb-1">15XX-XXXX</p>
-          <p className="text-white/40 text-xs">www.darimbang.co.kr</p>
+          <p className="text-white/40 text-sm">www.darimbang.co.kr</p>
         </div>
       </div>
     </section>

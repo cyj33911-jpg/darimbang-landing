@@ -15,9 +15,9 @@ export default function Profitability() {
 
         {/* Food Cost Card */}
         <div className="bg-white rounded-lg p-6 mb-4 text-center">
-          <p className="text-[#666] text-sm mb-4">식자재 원가율</p>
+          <p className="text-[#666] text-base mb-4">식자재 원가율</p>
           <p className="font-gmarket text-4xl sm:text-5xl text-[#A6192E] mb-3">28~32%</p>
-          <p className="text-[#666] text-xs leading-relaxed">
+          <p className="text-[#666] text-sm leading-relaxed">
             타 프랜차이즈 대비 현저히 낮은 원가율
             <br />
             체계적인 물류 시스템으로 안정적 수익 보장
@@ -32,8 +32,8 @@ export default function Profitability() {
                 <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
               </svg>
             </div>
-            <p className="font-bold text-[#A6192E] text-sm mb-1">임대료 절감</p>
-            <p className="text-[#666] text-xs">10평 내외 소규모 창업</p>
+            <p className="font-bold text-[#A6192E] text-base mb-1">임대료 절감</p>
+            <p className="text-[#666] text-sm">10평 내외 소규모 창업</p>
           </div>
 
           <div className="bg-white rounded-lg p-5 text-center">
@@ -42,8 +42,8 @@ export default function Profitability() {
                 <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
               </svg>
             </div>
-            <p className="font-bold text-[#A6192E] text-sm mb-1">인건비 절감</p>
-            <p className="text-[#666] text-xs">1~2인 운영 가능</p>
+            <p className="font-bold text-[#A6192E] text-base mb-1">인건비 절감</p>
+            <p className="text-[#666] text-sm">1~2인 운영 가능</p>
           </div>
         </div>
 

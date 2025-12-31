@@ -55,10 +55,10 @@ export default function ProblemSection() {
                 </svg>
               </div>
 
-              <h3 className="font-bold text-[#2D2926] text-sm sm:text-base mb-2">
+              <h3 className="font-bold text-[#2D2926] text-base sm:text-lg mb-2">
                 {problem.title}
               </h3>
-              <p className="text-[#666] text-xs sm:text-sm leading-relaxed whitespace-pre-line">
+              <p className="text-[#666] text-sm sm:text-base leading-relaxed whitespace-pre-line">
                 {problem.desc}
               </p>
             </div>

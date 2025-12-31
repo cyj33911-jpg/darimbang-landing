@@ -30,7 +30,7 @@ export default function AutoGrillSystem() {
             <br />
             자동 조리 시스템
           </h2>
-          <p className="text-white/60 text-sm">주방의 모든 문제를 해결하는 혁신</p>
+          <p className="text-white/60 text-base">주방의 모든 문제를 해결하는 혁신</p>
         </div>
 
         {/* YouTube Video - Shorts (9:16 vertical) with text cropped */}
@@ -63,8 +63,8 @@ export default function AutoGrillSystem() {
               <div className="w-10 h-10 mx-auto mb-3 bg-[#A6192E]/20 rounded-full flex items-center justify-center">
                 <span className="font-gmarket text-[#A6192E]">{index + 1}</span>
               </div>
-              <p className="font-bold text-white text-sm mb-1">{feature.title}</p>
-              <p className="text-white/50 text-xs">{feature.desc}</p>
+              <p className="font-bold text-white text-base mb-1">{feature.title}</p>
+              <p className="text-white/60 text-sm">{feature.desc}</p>
             </div>
           ))}
         </div>

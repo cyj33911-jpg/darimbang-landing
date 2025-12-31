@@ -24,7 +24,7 @@ export default function Hero() {
           <span className="block font-gmarket text-5xl sm:text-6xl md:text-7xl text-[#A6192E] tracking-tight">
             다림방
           </span>
-          <span className="block text-white/80 text-base sm:text-lg tracking-[0.2em] mt-3">
+          <span className="block text-white/80 text-lg sm:text-xl tracking-[0.2em] mt-3">
             DARIMBANG
           </span>
         </h1>
@@ -33,12 +33,12 @@ export default function Hero() {
         <div className="w-16 h-[2px] bg-[#A6192E] my-6" />
 
         {/* Subtitle */}
-        <p className="text-lg sm:text-xl text-white font-medium mb-3">
+        <p className="text-xl sm:text-2xl text-white font-medium mb-3">
           프리미엄 숙성 배달 삼겹
         </p>
 
         {/* Tagline */}
-        <p className="text-sm sm:text-base text-white/60 mb-10 max-w-xs leading-relaxed">
+        <p className="text-base sm:text-lg text-white/60 mb-10 max-w-xs leading-relaxed">
           48시간 숙성의 깊은 맛과
           <br />
           화구형 통돌이 시스템의 혁신
@@ -47,25 +47,25 @@ export default function Hero() {
         {/* Key Points */}
         <div className="flex justify-center gap-6 sm:gap-10 mb-10">
           <div className="text-center">
-            <p className="font-gmarket text-2xl sm:text-3xl text-[#A6192E]">48H</p>
-            <p className="text-white/50 text-xs mt-1">숙성</p>
+            <p className="font-gmarket text-3xl sm:text-4xl text-[#A6192E]">48H</p>
+            <p className="text-white/50 text-sm mt-1">숙성</p>
           </div>
           <div className="w-px h-12 bg-white/20" />
           <div className="text-center">
-            <p className="font-gmarket text-2xl sm:text-3xl text-[#A6192E]">1인</p>
-            <p className="text-white/50 text-xs mt-1">운영</p>
+            <p className="font-gmarket text-3xl sm:text-4xl text-[#A6192E]">1인</p>
+            <p className="text-white/50 text-sm mt-1">운영</p>
           </div>
           <div className="w-px h-12 bg-white/20" />
           <div className="text-center">
-            <p className="font-gmarket text-2xl sm:text-3xl text-[#A6192E]">4분</p>
-            <p className="text-white/50 text-xs mt-1">조리</p>
+            <p className="font-gmarket text-3xl sm:text-4xl text-[#A6192E]">4분</p>
+            <p className="text-white/50 text-sm mt-1">조리</p>
           </div>
         </div>
 
         {/* CTA Button */}
         <a
           href="#contact"
-          className="inline-block bg-[#A6192E] hover:bg-[#8a1526] text-white px-10 py-4 text-base font-bold tracking-wider transition-all duration-300 active:scale-95"
+          className="inline-block bg-[#A6192E] hover:bg-[#8a1526] text-white px-10 py-4 text-lg font-bold tracking-wider transition-all duration-300 active:scale-95"
         >
           창업 상담 신청
         </a>

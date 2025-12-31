@@ -10,15 +10,15 @@ export default function Footer() {
         <div className="text-center mb-6">
           <div className="flex items-center justify-center gap-2 mb-3">
             <span className="font-gmarket text-xl text-[#A6192E]">다림방</span>
-            <span className="text-white/40 text-xs tracking-wider">DARIMBANG</span>
+            <span className="text-white/40 text-sm tracking-wider">DARIMBANG</span>
           </div>
-          <p className="text-white/30 text-xs leading-relaxed">
+          <p className="text-white/30 text-sm leading-relaxed">
             48시간 숙성의 비밀 | 고기 잡내 0%, 부드러움 100%
           </p>
         </div>
 
         {/* Contact Info - Compact Mobile Layout */}
-        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-6 text-xs">
+        <div className="flex flex-wrap justify-center gap-4 sm:gap-6 mb-6 text-sm">
           <div className="flex items-center gap-2 text-white/40">
             <Phone className="w-3.5 h-3.5 text-[#A6192E]" />
             <span>15XX-XXXX</span>
@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
 
         {/* Quick Links - Horizontal on Mobile */}
-        <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6 text-xs">
+        <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-6 text-sm">
           <a href="#technology" className="text-white/30 active:text-[#A6192E]">
             48시간 숙성
           </a>
@@ -57,7 +57,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="text-center">
-          <p className="text-white/20 text-xs">
+          <p className="text-white/20 text-sm">
             &copy; 2024 다림방. All rights reserved.
           </p>
         </div>

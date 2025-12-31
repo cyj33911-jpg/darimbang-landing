@@ -17,14 +17,14 @@ export default function MenuSection() {
           <h2 className="font-gmarket text-2xl sm:text-3xl text-[#2D2926] leading-tight mb-3">
             <span className="text-[#A6192E]">프리미엄</span> 한상차림
           </h2>
-          <p className="text-[#666] text-sm">모든 입맛을 사로잡는 메뉴 구성</p>
+          <p className="text-[#666] text-base">모든 입맛을 사로잡는 메뉴 구성</p>
         </div>
 
         {/* Menu Categories */}
         <div className="flex flex-wrap justify-center gap-2 mb-8">
-          <span className="bg-[#A6192E] text-white text-xs px-3 py-1.5 rounded-full">시그니처 숙성 삼겹</span>
-          <span className="bg-white text-[#666] text-xs px-3 py-1.5 rounded-full">든든한 세트 메뉴</span>
-          <span className="bg-white text-[#666] text-xs px-3 py-1.5 rounded-full">사이드 메뉴</span>
+          <span className="bg-[#A6192E] text-white text-sm px-3 py-1.5 rounded-full">시그니처 숙성 삼겹</span>
+          <span className="bg-white text-[#666] text-sm px-3 py-1.5 rounded-full">든든한 세트 메뉴</span>
+          <span className="bg-white text-[#666] text-sm px-3 py-1.5 rounded-full">사이드 메뉴</span>
         </div>
 
         {/* Menu Grid */}
@@ -40,7 +40,7 @@ export default function MenuSection() {
                   sizes="(max-width: 640px) 33vw, 200px"
                 />
               </div>
-              <p className="text-center text-[#2D2926] text-xs py-2 font-medium">
+              <p className="text-center text-[#2D2926] text-sm py-2 font-medium">
                 {menu.name}
               </p>
             </div>

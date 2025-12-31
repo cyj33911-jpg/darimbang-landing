@@ -28,7 +28,7 @@ export default function SuccessProof() {
             <br />
             증명합니다
           </h2>
-          <p className="text-white/60 text-sm">재주문율이 모든 것을 말해줍니다</p>
+          <p className="text-white/60 text-base">재주문율이 모든 것을 말해줍니다</p>
         </div>
 
         {/* Case Cards */}
@@ -40,7 +40,7 @@ export default function SuccessProof() {
                 <p className="text-[#2D2926] font-medium leading-relaxed mb-4">
                   &quot;{caseItem.quote}&quot;
                 </p>
-                <p className="text-[#666] text-sm">
+                <p className="text-[#666] text-base">
                   — {caseItem.owner} · {caseItem.location}
                 </p>
               </div>
@@ -48,12 +48,12 @@ export default function SuccessProof() {
               {/* Stats */}
               <div className="bg-[#F5F2ED] p-4 flex justify-between items-center">
                 <div>
-                  <p className="text-[#666] text-xs mb-1">월 매출</p>
+                  <p className="text-[#666] text-sm mb-1">월 매출</p>
                   <p className="font-gmarket text-xl text-[#A6192E]">{caseItem.revenue}</p>
                 </div>
                 <div className="text-right">
-                  <p className="text-[#666] text-xs mb-1">성공 요인</p>
-                  <p className="font-bold text-[#2D2926] text-sm">{caseItem.factor}</p>
+                  <p className="text-[#666] text-sm mb-1">성공 요인</p>
+                  <p className="font-bold text-[#2D2926] text-base">{caseItem.factor}</p>
                 </div>
               </div>
             </div>
