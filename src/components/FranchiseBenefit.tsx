@@ -1,70 +1,67 @@
 "use client";
 
 export default function FranchiseBenefit() {
+  const benefits = [
+    { title: "가맹비 면제", desc: "가입비와 보증금 전액 면제" },
+    { title: "교육비 지원", desc: "본사 교육비 100만원 지원" },
+    { title: "로열티 면제", desc: "매월 로열티 부담 없음" },
+    { title: "1:1 전담 지원", desc: "슈퍼바이저 밀착 지원" },
+  ];
+
   return (
-    <section id="benefit" className="py-24 bg-[#0D0D0D]">
-      <div className="max-w-5xl mx-auto px-6">
+    <section id="benefit" className="py-16 sm:py-20 bg-[#F5F2ED]">
+      <div className="max-w-6xl mx-auto px-5">
         {/* Header */}
-        <div className="text-center mb-20">
-          <div className="inline-flex items-center gap-4 mb-6">
-            <div className="w-8 h-[1px] bg-[#C9A962]" />
-            <span className="text-[#C9A962] text-xs tracking-[0.3em] uppercase">Benefit</span>
-            <div className="w-8 h-[1px] bg-[#C9A962]" />
-          </div>
-          <h2 className="font-gmarket text-3xl sm:text-4xl text-white tracking-tight mb-4">
-            창업 혜택
+        <div className="text-center mb-8 sm:mb-10">
+          <h2 className="font-gmarket text-2xl sm:text-3xl text-[#2D2926] leading-tight mb-3">
+            선착순 30호점
+            <br />
+            <span className="text-[#A6192E]">파격 지원 혜택</span>
           </h2>
-          <p className="text-white/40 text-sm tracking-wider">
-            선착순 한정
-          </p>
+          <p className="text-[#666] text-sm">성공적인 시작을 위한 특별 지원</p>
+        </div>
+
+        {/* Gold Badge - Mobile Centered */}
+        <div className="flex justify-center mb-8">
+          <div className="relative w-40 h-40 sm:w-52 sm:h-52">
+            {/* Gold Circle */}
+            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-[#D4AF37] via-[#F5D061] to-[#B8860B] shadow-lg" />
+            <div className="absolute inset-2 rounded-full bg-gradient-to-br from-[#F5D061] via-[#D4AF37] to-[#B8860B]" />
+            <div className="absolute inset-4 rounded-full bg-gradient-to-br from-[#D4AF37] via-[#F5D061] to-[#D4AF37] flex flex-col items-center justify-center">
+              <p className="font-gmarket text-2xl sm:text-3xl text-[#5D4E37]">550만원</p>
+              <p className="font-gmarket text-base sm:text-lg text-[#5D4E37]">상당 혜택</p>
+            </div>
+          </div>
         </div>
 
         {/* Benefits Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/10 mb-12">
-          <div className="bg-[#0D0D0D] p-8 sm:p-10">
-            <span className="text-[#C9A962] text-xs tracking-[0.2em] mb-4 block">01</span>
-            <p className="text-white mb-2 tracking-wide">가맹비 면제</p>
-            <p className="text-[#C9A962] font-gmarket text-xl">500만원 절감</p>
-          </div>
-          <div className="bg-[#0D0D0D] p-8 sm:p-10">
-            <span className="text-[#C9A962] text-xs tracking-[0.2em] mb-4 block">02</span>
-            <p className="text-white mb-2 tracking-wide">로열티 50% 할인</p>
-            <p className="text-white/40 text-sm tracking-wide">오픈 후 6개월간</p>
-          </div>
-          <div className="bg-[#0D0D0D] p-8 sm:p-10">
-            <span className="text-[#C9A962] text-xs tracking-[0.2em] mb-4 block">03</span>
-            <p className="text-white mb-2 tracking-wide">교육비 면제</p>
-            <p className="text-[#C9A962] font-gmarket text-xl">100만원 절감</p>
-          </div>
-          <div className="bg-[#0D0D0D] p-8 sm:p-10">
-            <span className="text-[#C9A962] text-xs tracking-[0.2em] mb-4 block">04</span>
-            <p className="text-white mb-2 tracking-wide">초도 물류비 50% 지원</p>
-            <p className="text-white/40 text-sm tracking-wide">오픈 초기</p>
-          </div>
-          <div className="bg-[#0D0D0D] p-8 sm:p-10">
-            <span className="text-[#C9A962] text-xs tracking-[0.2em] mb-4 block">05</span>
-            <p className="text-white mb-2 tracking-wide">1:1 전담 슈퍼바이저</p>
-            <p className="text-white/40 text-sm tracking-wide">지속 관리</p>
-          </div>
-          <div className="bg-[#0D0D0D] p-8 sm:p-10">
-            <span className="text-[#C9A962] text-xs tracking-[0.2em] mb-4 block">06</span>
-            <p className="text-white mb-2 tracking-wide">빠른 오픈</p>
-            <p className="text-white/40 text-sm tracking-wide">계약 후 2주 내</p>
-          </div>
+        <div className="grid grid-cols-2 gap-3 mb-6">
+          {benefits.map((benefit, index) => (
+            <div key={index} className="bg-white rounded-lg p-4 sm:p-5">
+              <div className="flex items-center gap-2 mb-2">
+                <svg
+                  className="w-4 h-4 sm:w-5 sm:h-5 text-[#C9A962] flex-shrink-0"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth="3"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                </svg>
+                <p className="font-bold text-[#2D2926] text-sm sm:text-base">{benefit.title}</p>
+              </div>
+              <p className="text-[#666] text-xs sm:text-sm">{benefit.desc}</p>
+            </div>
+          ))}
         </div>
 
         {/* CTA */}
-        <div className="text-center">
-          <a
-            href="#contact"
-            className="inline-block border border-[#C9A962] text-[#C9A962] hover:bg-[#C9A962] hover:text-black px-10 py-4 text-sm tracking-widest transition-all duration-300"
-          >
-            상담 신청하기
-          </a>
-          <p className="text-white/30 text-xs mt-6 tracking-wider">
-            * 선착순 마감 시 혜택이 조기 종료될 수 있습니다.
-          </p>
-        </div>
+        <a
+          href="#contact"
+          className="block w-full bg-[#A6192E] text-white text-center py-4 rounded-lg font-bold active:scale-[0.98] transition-transform"
+        >
+          혜택 상담받기
+        </a>
       </div>
     </section>
   );

@@ -2,75 +2,58 @@
 
 export default function Profitability() {
   return (
-    <section id="profit" className="py-24 bg-[#0D0D0D]">
-      <div className="max-w-5xl mx-auto px-6">
+    <section id="profit" className="py-16 sm:py-20 bg-[#F5F2ED]">
+      <div className="max-w-6xl mx-auto px-5">
         {/* Header */}
-        <div className="text-center mb-20">
-          <div className="inline-flex items-center gap-4 mb-6">
-            <div className="w-8 h-[1px] bg-[#C9A962]" />
-            <span className="text-[#C9A962] text-xs tracking-[0.3em] uppercase">Profit</span>
-            <div className="w-8 h-[1px] bg-[#C9A962]" />
-          </div>
-          <h2 className="font-gmarket text-3xl sm:text-4xl text-white tracking-tight mb-4">
-            배달 전문점이라 비용이 적습니다
+        <div className="text-center mb-10">
+          <h2 className="font-gmarket text-2xl sm:text-3xl text-[#2D2926] leading-tight">
+            <span className="text-[#A6192E]">압도적인 원가 구조</span>로
+            <br />
+            이익률 극대화
           </h2>
-          <p className="text-white/40 text-sm tracking-wider">
-            홀 없이 10평이면 충분합니다
+        </div>
+
+        {/* Food Cost Card */}
+        <div className="bg-white rounded-lg p-6 mb-4 text-center">
+          <p className="text-[#666] text-sm mb-4">식자재 원가율</p>
+          <p className="font-gmarket text-4xl sm:text-5xl text-[#A6192E] mb-3">28~32%</p>
+          <p className="text-[#666] text-xs leading-relaxed">
+            타 프랜차이즈 대비 현저히 낮은 원가율
+            <br />
+            체계적인 물류 시스템으로 안정적 수익 보장
           </p>
         </div>
 
-        {/* Profit Breakdown */}
-        <div className="bg-white p-8 sm:p-12 mb-12">
-          <div className="flex items-center justify-between mb-10">
-            <span className="text-[#999] text-sm tracking-wider">월 매출 3,000만원 기준</span>
-            <div className="w-24 h-[1px] bg-[#E5E5E5]" />
+        {/* Fixed Cost Cards */}
+        <div className="grid grid-cols-2 gap-3 mb-6">
+          <div className="bg-white rounded-lg p-5 text-center">
+            <div className="w-10 h-10 mx-auto mb-3 bg-[#A6192E]/10 rounded-full flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#A6192E]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
+                <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+            </div>
+            <p className="font-bold text-[#A6192E] text-sm mb-1">임대료 절감</p>
+            <p className="text-[#666] text-xs">10평 내외 소규모 창업</p>
           </div>
 
-          <div className="space-y-0">
-            <div className="flex justify-between items-center py-5 border-b border-[#F0F0F0]">
-              <span className="text-[#666] tracking-wide">원가</span>
-              <span className="text-[#0D0D0D] tracking-wide">35% (1,050만원)</span>
+          <div className="bg-white rounded-lg p-5 text-center">
+            <div className="w-10 h-10 mx-auto mb-3 bg-[#A6192E]/10 rounded-full flex items-center justify-center">
+              <svg className="w-5 h-5 text-[#A6192E]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="1.5">
+                <path d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z" />
+              </svg>
             </div>
-            <div className="flex justify-between items-center py-5 border-b border-[#F0F0F0]">
-              <span className="text-[#666] tracking-wide">인건비 (1~2명)</span>
-              <span className="text-[#0D0D0D] tracking-wide">15% (450만원)</span>
-            </div>
-            <div className="flex justify-between items-center py-5 border-b border-[#F0F0F0]">
-              <span className="text-[#666] tracking-wide">임대료 (10평)</span>
-              <span className="text-[#0D0D0D] tracking-wide">8% (240만원)</span>
-            </div>
-            <div className="flex justify-between items-center py-5 border-b border-[#F0F0F0]">
-              <span className="text-[#666] tracking-wide">기타</span>
-              <span className="text-[#0D0D0D] tracking-wide">17% (510만원)</span>
-            </div>
-            <div className="flex justify-between items-center py-8 bg-[#0D0D0D] -mx-8 sm:-mx-12 px-8 sm:px-12 mt-6">
-              <span className="text-white tracking-wide">예상 순이익</span>
-              <span className="font-gmarket text-2xl sm:text-3xl text-[#C9A962]">750만원</span>
-            </div>
+            <p className="font-bold text-[#A6192E] text-sm mb-1">인건비 절감</p>
+            <p className="text-[#666] text-xs">1~2인 운영 가능</p>
           </div>
         </div>
 
-        {/* Comparison */}
-        <div className="text-center">
-          <div className="inline-flex items-center gap-6 mb-10">
-            <div className="text-right">
-              <p className="text-white/40 text-xs tracking-wider mb-1">일반 삼겹살 프랜차이즈</p>
-              <p className="text-white/60 text-lg">평균 순이익률 12%</p>
-            </div>
-            <div className="text-[#C9A962] text-2xl">→</div>
-            <div className="text-left">
-              <p className="text-[#C9A962] text-xs tracking-wider mb-1">다림방</p>
-              <p className="font-gmarket text-white text-xl">순이익률 25%</p>
-            </div>
-          </div>
-
-          <a
-            href="#contact"
-            className="inline-block border border-[#C9A962] text-[#C9A962] hover:bg-[#C9A962] hover:text-black px-10 py-4 text-sm tracking-widest transition-all duration-300"
-          >
-            상담 신청하기
-          </a>
-        </div>
+        {/* CTA */}
+        <a
+          href="#contact"
+          className="block w-full bg-[#2D2926] text-white text-center py-4 rounded-lg font-bold active:scale-[0.98] transition-transform"
+        >
+          수익 구조 상담받기
+        </a>
       </div>
     </section>
   );
